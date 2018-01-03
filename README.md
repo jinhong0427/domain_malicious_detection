@@ -321,20 +321,7 @@ Itunes.com
 ```
 模型在处理这个问题时，就会出现抖动。因为模型虽然能够学到里面的语义，但也无法判断其为恶意还是正常。类似这种情况的欺骗网站，还有很多，比如仿照各大银行的网站、金融交易网站等。对于这类问题就不能与前面的一般恶意域名检测问题放在一起处理。必须得分开，进行单独的样本收集，训练。可以使用传统的黑白名单方式、也可以升级现有的网络模型，使其适应更多样变化的特征，例如使用对抗网络模型等。
 
-# 参考：
 
-* 1.	本案例代码与资源下载网址：https://github.com/jinhong0427/domain_malicious_detection
-* 2.	CDN校验漏洞催生海量网络投毒： http://www.freebuf.com/news/139358.html
-* 3.	变长双向RNN的正确使用姿势： http://blog.csdn.net/lijin6249/article/details/78955175
-* 4.	IP地址溯源：https://www.ipip.net/
-* 5.	天际友盟威胁情报平台：https://redqueen.sec-un.com/
-
-
-致谢：
-    感谢派网软件提供安全方向技术支持。
-    
-* 1.	CNCERT
-* 2.	烽火台安全威胁情报联盟
 
 <p align="center"><img width="40%" src="1215474277.jpg" /></p>
 <p align="center"><img width="40%" src="code.jpg" /></p>
