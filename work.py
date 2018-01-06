@@ -11,7 +11,7 @@ import pandas as pd
 from pandas import Series,DataFrame
 from tensorflow.python.tools import freeze_graph
 
-from  prepro导出 import preprosample
+from  prepro import preprosample
 from sklearn.utils import shuffle
 import traceback
 
